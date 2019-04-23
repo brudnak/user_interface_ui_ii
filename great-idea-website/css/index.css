@@ -94,21 +94,29 @@ h1, h2, h3, h4, h5 {
 	vertical-align: bottom;
   }
 
-  #header-left, #header-right {
+  header {
+	  width: 100%;
+	  text-align: center;
+  }
+
+  .header-left, #header-right {
 	  display: inline-block;
 	  width: 49%;
   }
 
-  #header-left {
-	  background-color: aqua;
+  .header-left {
+	  padding: 40px;
+	  height: 100%;
+	  position: relative;
+	  bottom: 100px;
   }
 
-  #header-left h1 {
+  .header-left h1 {
 	font-size: 60px;
 	text-align: center;
 }
 
-#header-left a {
+.header-left a {
 	display: block;
 	font-size: 30px;
 	text-align: center;
@@ -119,11 +127,69 @@ h1, h2, h3, h4, h5 {
 	color: #000;
 }
 
-  #header-right {
-	  background-color: red;
+  .header-right {
+	  padding: 40px;
+	  display: inline-block;
   }
 
-  #header-right img {
+  .header-right img {
 	display: inline-block;
-	margin: 0 auto;
+	margin: auto;
   }
+
+  .top-section-columns {
+	  width: 49%;
+	  display: inline-block;
+  }
+
+  .top-section-columns h2 {
+	  font-size: 50px;
+
+  }
+
+  hr {
+	  border: 1px solid #000;
+	  margin-top: 40px;
+	  margin-bottom: 40px;
+  }
+
+ .hero-image {
+	 width: 100%;
+	 padding-top: 30px;
+	 padding-bottom: 30px;
+ }
+
+ .hero-image img {
+	width: 100%;
+	width: calc(100%);
+	margin: 0 auto;
+}
+
+.bottom-section-columns {
+	width: 32%;
+	display: inline-block;
+}
+
+.bottom-section-columns h2 {
+	font-size: 50px;
+
+}
+
+.contact {
+	width: 100%;
+	display: inline-block;
+}
+
+.contact h2 {
+	font-size: 30px;
+}
+
+footer {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+address a {
+	text-decoration: none;
+	color: #000;
+}
